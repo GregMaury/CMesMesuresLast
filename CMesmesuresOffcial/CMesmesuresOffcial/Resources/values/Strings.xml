@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">CMesmesuresOffcial</string>
+  <string name="HomeText1">Ne vous trompez plus de taille...</string>
+  <string name="HomeText2">Achetez vos vêtement en toute confiance, nous vous préconisons la bonne taille.</string>
+  <string name="btnSignin">Connecter</string>
+  <string name="linkRegister">Créer un compte</string>
+  <string name="btnContinue">Continuez</string>
+</resources>

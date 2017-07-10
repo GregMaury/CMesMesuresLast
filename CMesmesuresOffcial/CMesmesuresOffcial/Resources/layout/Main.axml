@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainContent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+  <ImageView
+      android:src="@drawable/logo"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:id="@+id/imageView1"
+      android:scaleType="fitStart" />
+  <EditText
+      android:inputType="none"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/editText1"
+      android:textColor="#6b7475"
+      android:text="@string/HomeText1"
+      android:layout_marginTop="80dp" />
+  <EditText
+      android:inputType="none"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/editText2"
+      android:textColor="#6b7475"
+      android:text="@string/HomeText2" />
+  <ImageView
+      android:src="@drawable/smile"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/imageView2" />
+  <Button
+      android:text="@string/btnSignin"
+      android:layout_height="wrap_content"
+      android:id="@+id/button1"
+      android:textAllCaps="false"
+      android:onClick="OpenSignin"
+      android:layout_width="wrap_content"
+      android:layout_gravity="center" />
+  <EditText
+      android:inputType="none"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/editText3"
+      android:text="@string/linkRegister"
+      android:textColor="#31698a"
+      android:onClick="OpenRegister"
+      android:clickable="true"
+      android:layout_gravity="center"
+      android:textSize="10dp" />
+  <Button
+      android:text="@string/btnContinue"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/button2"
+      android:textAllCaps="false"
+      android:onClick="OnContinue"
+      android:layout_gravity="center"
+      android:layout_marginTop="40dp" />
+</LinearLayout>
