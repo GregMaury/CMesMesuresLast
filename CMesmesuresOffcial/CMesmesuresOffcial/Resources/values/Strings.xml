@@ -3,7 +3,15 @@
   <string name="ApplicationName">CMesmesuresOffcial</string>
   <string name="HomeText1">Ne vous trompez plus de taille...</string>
   <string name="HomeText2">Achetez vos vêtement en toute confiance, nous vous préconisons la bonne taille.</string>
-  <string name="btnSignin">Connecter</string>
-  <string name="linkRegister">Créer un compte</string>
+  <string name="btnSignin">Connexion</string>
+  <string name="linkRegister">Créer un compte et obtenir une combinaison</string>
   <string name="btnContinue">Continuez</string>
+  <string name="txtContinue">Continuez</string>
+  <string name="labelEmail">Adresse mail :</string>
+  <string name="labelPassword">Mot de passe :</string>
+  <string name="lostPassword">Mot de passe oublié</string>
+  <string name="textMenuPhoto">Vous avez reçu la combinaison de prise mesure, \nil suffit de la porter et de prendre 3 photos</string>
+  <string name="textTakePictureFront">Prenez une photo de face</string>
+  <string name="textTakePictureSide">Prenez une photo de côté</string>
+  <string name="textTakePictureBack">Prenez une photo de dos</string>
 </resources>

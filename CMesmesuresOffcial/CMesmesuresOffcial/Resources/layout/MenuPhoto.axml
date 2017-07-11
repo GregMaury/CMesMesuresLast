@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:src="@drawable/logo"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:id="@+id/imageView1" />
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="50dp"
+            android:src="@drawable/smile"
+            android:layout_gravity="right"
+            android:id="@+id/imageView2" />
+    </LinearLayout>
+    <EditText
+        android:inputType="none"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:textColor="#6b7475"
+        android:gravity="center_horizontal"
+        android:paddingTop="30dp"
+        android:textSize="17dp"
+        android:text="@string/textMenuPhoto"
+        android:layout_gravity="center" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:paddingLeft="30dp"
+        android:clickable="true"
+        android:onClick="OpenCameraFront>
+        <ImageView
+            android:src="@drawable/un"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/imageView3" />
+        <TextView
+            android:text="@string/textTakePictureFront"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="#6b7475"
+            android:paddingTop="10dp"
+            android:id="@+id/textView1" />
+        <ImageView
+            android:src="@drawable/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/imageView4" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="30dp"
+        android:clickable="true"
+        android:onClick="OpenCameraSide">
+        <ImageView
+            android:src="@drawable/deux"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/imageView3" />
+        <TextView
+            android:text="@string/textTakePictureSide"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="#6b7475"
+            android:paddingTop="10dp"
+            android:id="@+id/textView1" />
+        <ImageView
+            android:src="@drawable/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/imageView4" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="30dp"
+        android:clickable="true"
+        android:onClick="OpenCameraBack">
+        <ImageView
+            android:src="@drawable/trois"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/imageView3" />
+        <TextView
+            android:text="@string/textTakePictureBack"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="#6b7475"
+            android:paddingTop="10dp"
+            android:id="@+id/textView1" />
+        <ImageView
+            android:src="@drawable/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/imageView4" />
+    </LinearLayout>
+    <EditText
+        android:inputType="none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:text="@string/txtContinue"
+        android:textColor="#9d4d75"
+        android:onClick="OpenSignin"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="25dp" />
+</LinearLayout>

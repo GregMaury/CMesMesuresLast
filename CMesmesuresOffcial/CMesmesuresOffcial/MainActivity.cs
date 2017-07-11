@@ -8,6 +8,10 @@ using Android.Provider;
 using Java.IO;
 using Android.Content.PM;
 using CMesmesuresOffcial.Helpers;
+using Android.Support.V7.App;
+using Android.Support.Design.Widget;
+
+
 
 namespace CMesmesuresOffcial
 {
